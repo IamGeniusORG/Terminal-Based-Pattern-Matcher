@@ -1,0 +1,14 @@
+System Prerequisites to Build & Run This Project:
+
+1. Rust & Cargo
+   - You must have the Rust programming language and Cargo (its package manager) installed.
+   - Download and install from: https://rustup.rs/
+
+2. C++ Build Tools (Windows Users Only)
+   - When installing Rust on Windows, the installer will likely prompt you to install the Microsoft Visual C++ Build Tools. 
+   - You MUST install these (specifically the MSVC linker and Windows 11 SDK) for the code to successfully compile into a final executable (.exe).
+   - Alternatively, you can download them directly from Microsoft: https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+3. Git (Optional, but recommended)
+   - To clone this repository to your local machine, you need Git installed.
+   - Download from: https://git-scm.com/
