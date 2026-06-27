@@ -63,3 +63,10 @@ pattern_matcher "admin_[a-z]+" "database_dump.txt"
 
 ## 👨‍💻 Built By
 Developed to master modern systems-level programming, memory safety, and multi-threading in Rust.
+
+---
+
+## ⚠️ Prerequisites (Before you build)
+Please see the `requirements.txt` file for full details. In short, you will need:
+1. **Rust & Cargo**: Installed via [rustup.rs](https://rustup.rs/)
+2. **C++ Build Tools (Windows)**: If you are on Windows, you MUST install the Microsoft Visual C++ Build Tools (specifically the MSVC linker) when prompted by the Rust installer, otherwise the final executable cannot be built.
